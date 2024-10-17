@@ -1,0 +1,19 @@
+
+#### `.gitignore` Content:
+You should also include a `.gitignore` file to avoid pushing unnecessary files to GitHub. Here’s a basic `.gitignore` for Python projects:
+
+```plaintext
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+myenv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# CSV and data files (optional)
+*.csv
+*.json
